@@ -2,8 +2,7 @@ import React from "react";
 import Button from "./Button";
 const base = {
   width: "100%",
-  height: "100%",
-  color: "blue"
+  height: "100%"
 };
 const yellow = {
   background: "yellow",

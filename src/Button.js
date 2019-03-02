@@ -7,9 +7,10 @@ const style = {
 };
 
 export default memo(({ onClick }) => {
-  let green = 0.5;
+  // do some expensive work calculating the button guarded by the memo
+  let work = 0.5;
   for (let i = 0; i < 10000; i++) {
-    green = (green + Math.random()) / 2;
+    work = (work + Math.random()) / 2;
   }
   return <div style={style} onClick={onClick} />;
 });
