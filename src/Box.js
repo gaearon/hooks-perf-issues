@@ -17,14 +17,14 @@ const row = {
   display: "flex",
   flexDirection: "row"
 };
-const Box = ({ depth = 0, state, onClick }) => {
+const Box = ({ depth = 0, isYellow, onClick }) => {
   return (
-    <div style={state ? yellow : white}>
+    <div style={isYellow ? yellow : white}>
       <Button onClick={onClick} />
       {depth > 0 ? (
         <div style={row}>
-          <Box state={state} depth={depth - 1} onClick={onClick} />
-          <Box state={state} depth={depth - 1} onClick={onClick} />
+          <Box isYellow={isYellow} depth={depth - 1} onClick={onClick} />
+          <Box isYellow={isYellow} depth={depth - 1} onClick={onClick} />
         </div>
       ) : null}
     </div>

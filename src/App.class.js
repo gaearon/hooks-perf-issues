@@ -5,23 +5,23 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      state: true
+      isYellow: true
     };
   }
 
   handleClick = () => {
-    this.setState(({ state }) => ({
-      state: !state
+    this.setState(({ isYellow }) => ({
+      isYellow: !isYellow
     }));
   };
 
   render() {
-    const state = this.state.state;
+    const isYellow = this.state.isYellow;
     const handleClick = this.handleClick;
     return (
       <>
         <h1>App.class.js</h1>
-        <Box state={state} depth={12} onClick={handleClick} />
+        <Box isYellow={isYellow} depth={12} onClick={handleClick} />
       </>
     );
   }
