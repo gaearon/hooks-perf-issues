@@ -12,7 +12,7 @@ yarn start-hooks
 
 Click on a blue square
 
-Notice clicks take roughly 900-1100ms to propagate
+Notice clicks take roughly 940-1090ms to propagate
 
 <img src="hooks.png" />
 
@@ -24,6 +24,6 @@ yarn start-class
 
 Click on a blue square
 
-Notice clicks take roughly 300-400ms to propagate
+Notice clicks take roughly 220-320ms to propagate
 
 <img src="class.png" />
