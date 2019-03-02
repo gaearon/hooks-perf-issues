@@ -4,6 +4,10 @@ import Box from "./Box";
 function App() {
   const [state, setState] = useState(true);
 
+  // handleClick requires information from the current state to do its work.
+  // This means that everytime state changes a new handler is created
+  // This is incredibly common that a handler needs to know something about
+  // the state of the component.
   const handleClick = useCallback(() => {
     setState(!state);
   }, [state]);
