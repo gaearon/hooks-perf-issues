@@ -84,3 +84,16 @@ class App extends React.Component {
 ```
 
 The other components in the tree remain the same.
+
+Our memoized component is the Button component:
+
+```js
+export default memo(({ onClick }) => {
+  // do some expensive work calculating the button guarded by the memo
+  let work = 0.5;
+  for (let i = 0; i < 10000; i++) {
+    work = (work + Math.random()) / 2;
+  }
+  return <div style={style} onClick={onClick} />;
+});
+```
