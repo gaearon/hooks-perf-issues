@@ -20,7 +20,7 @@ class App extends React.Component {
     const handleClick = this.handleClick;
     return (
       <>
-        <h1>Using Class App</h1>
+        <h1>App.class.js</h1>
         <Box state={state} depth={12} onClick={handleClick} />
       </>
     );
