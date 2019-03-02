@@ -1,6 +1,6 @@
 ## Hooks performance test
 
-Here is an example of how hooks can cause performance problems.
+Here is an example of how hooks can cause performance problems. This does not mean that hooks should be avoided, just that performance with hooks needs to managed carefully.
 
 This demo was modelled off a real world performance issue I was tasked to solve where we had special URL qualification logic that took a long time as our app was writing out special hrefs to link tags.
 
