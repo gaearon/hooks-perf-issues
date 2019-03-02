@@ -10,6 +10,8 @@ This demo was modelled off a real world performance issue I was tasked to solve 
 yarn start-hooks
 ```
 
+<img src="example.png" />
+
 Click on a blue square
 
 Notice clicks take roughly 940-1090ms to propagate
