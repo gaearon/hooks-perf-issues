@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 
 const style = {
+  cursor: "pointer",
   background: "lightblue",
   width: "50%",
   height: "7.69vh"
