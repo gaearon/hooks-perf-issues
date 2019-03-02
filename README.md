@@ -12,7 +12,7 @@ yarn start-hooks
 
 <img src="example.png" />
 
-Click on a blue square
+Click on a blue square. Eventually the yellow square should turn white.
 
 Notice clicks take roughly 940-1090ms to propagate
 
