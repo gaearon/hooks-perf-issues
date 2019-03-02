@@ -2,7 +2,7 @@
 
 Here is an example of how hooks can cause performance problems.
 
-This demo was modelled off a real world performance issue I was tasked to solve where we had special URL qualification logic that took a long time as our app was writing out special hrefs to link tags. In the end we moved where the heavy work was done which solved the problem but I find it makes for a good example of how people can accidentally land in performance problems.
+This demo was modelled off a real world performance issue I was tasked to solve where we had special URL qualification logic that took a long time as our app was writing out special hrefs to link tags.
 
 ## Run as hook
 
