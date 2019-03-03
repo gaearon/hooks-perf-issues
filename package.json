@@ -8,8 +8,8 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start-hooks": "REACT_APP_HOOKS=1 react-scripts start",
-    "start-class": "REACT_APP_HOOKS=0 react-scripts start",
+    "build-hooks": "REACT_APP_HOOKS=1 react-scripts build",
+    "build-class": "REACT_APP_HOOKS=0 react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
